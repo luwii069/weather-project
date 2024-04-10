@@ -15,12 +15,20 @@ document.querySelector(".wind").innerHTML = data.wind.speed + "km/hr"
 if(data.weather[0].main== "clouds"){
     weatherIcon.src="clouds.png"
 }
+else if(data.weather[0].main== "clear"){
+    weatherIcon.src="clear.png"
+}
 else if(data.weather[0].main== "rain"){
-    weatherIcon.src="clouds.png"
+    weatherIcon.src="rain.png"
+}
+else if (data.weather[0].main== "drizzle"){
+    weatherIcon.src="drizzle.png"
+}
+else if (data.weather[0].main== "mist"){
+    weatherIcon.src="mist.png"
+}
 
 }
-else if (data.weather[0].main== "rain"){
-    weatherIcon.src="clouds.png"
 
 searchtn.addEventListener("click", ()=>{
     checkWeather(searchbox.value)
