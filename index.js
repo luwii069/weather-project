@@ -5,7 +5,7 @@ const response = await fetch(apiUrl+`&apikey=${apikey}`)
 let data = await response.json();
 console.log(data);
 }
-
+document.querySelector(".city").innerHTML = data .
 
 
 
