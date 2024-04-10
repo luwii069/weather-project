@@ -26,7 +26,7 @@ background-color: #222;
   .search input{
     border: 0;
     outline: 0;
-    background: #076355;
+    background:#00feba;
     color:#555;
     padding: 10px 25px;
     height: 60px;
@@ -35,3 +35,16 @@ background-color: #222;
     margin-right: 16px;
     font-size: 18px;
   }
+.search button{
+    border: 0;
+    outline: 0;
+    background:#00feba;
+    border-radius:50%;
+    width: 60px;
+    height: 60px;
+    cursor:pointer;
+}
+.search button img{
+    width:16px;
+    
+}
