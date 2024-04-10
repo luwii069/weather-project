@@ -15,9 +15,12 @@ document.querySelector(".wind").innerHTML = data.wind.speed + "km/hr"
 if(data.weather[0].main== "clouds"){
     weatherIcon.src="clouds.png"
 }
-
+else if(data.weather[0].main== "rain"){
+    weatherIcon.src="clouds.png"
 
 }
+else if (data.weather[0].main== "rain"){
+    weatherIcon.src="clouds.png"
 
 searchtn.addEventListener("click", ()=>{
     checkWeather(searchbox.value)
