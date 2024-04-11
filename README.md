@@ -20,6 +20,6 @@ searchbox: A reference to the search input element.
 searchtn: A reference to the search button element.
 weatherIcon: A reference to the weather icon element.
 checkWeather(city): An asynchronous function that fetches weather data for a given city and displays it on the page.
-Event listener for the search button that calls the checkWeather function when the button is clicked.
+Event listener for the search button that calls the checkWeather function when the button is clicked..
 
 
